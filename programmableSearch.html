@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
+<title>Search</title>
+
+  <style>
+
+  body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    text-align:center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    max-width: 100%;
+  height: auto;
+  }
+
+  h1{
+    color: #810541;
+  }
+
+  span{
+
+    display: block;
+        overflow: hidden;
+
+  }
+  input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  position: center
+  border:none;
+   float: left;
+   margin-right: 3px;
+
+}
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    position: center
+
+
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  div {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+  <h1>Custom Search Engine</h1>
+  <div>
+    <form action="programmableSearch.html"  method="get">
+
+  <input type="text"  name="q" placeholder="Search">
+<span>
+    <input type="submit" name="Search" >
+</span>
+    </form>
+    <script async src="https://cse.google.com/cse.js?cx=3fefeb6cad2fee670"></script>
+<div class="gcse-searchresults-only"></div>
+</div>
+
+
+</body>
+</html>
