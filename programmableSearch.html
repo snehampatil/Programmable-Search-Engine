@@ -10,12 +10,13 @@
     font-family: 'Trebuchet MS', sans-serif;
     background-image: url('bg.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     text-align:center;
     font-weight: bold;
     font-size: 30px;
     margin: 0;
-    max-width: 100%;
-  height: auto;
+  max-width: 100%;
+
   }
 
   h1{
@@ -57,11 +58,14 @@
   }
 
   div {
-    max-width: 500px;
+     max-width: 800px;
     margin: auto;
     text-align: center;
     padding: 10px;
+
   }
+
+
 </style>
 </head>
 <body>
@@ -69,13 +73,14 @@
   <div>
     <form action="programmableSearch.html"  method="get">
 
-  <input type="text"  name="q" placeholder="Search">
+  <input type="text"  name="query" placeholder="Search">
 <span>
     <input type="submit" name="Search" >
 </span>
     </form>
+
     <script async src="https://cse.google.com/cse.js?cx=3fefeb6cad2fee670"></script>
-<div class="gcse-searchresults-only"></div>
+  <div class="gcse-searchresults-only"></div>
 </div>
 
 
